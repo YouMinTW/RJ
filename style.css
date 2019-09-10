@@ -1,12 +1,11 @@
 body {
   background-color: #202020 !important;
-  font-size: 10px;
   font-family: Roboto, Arial, sans-serif;
   color: #fff;
 }
 
 a {
-  color: rgb(253, 253, 253);
+  color: #3fa6ff !important;
 }
 
 .children-son {
@@ -379,9 +378,6 @@ h1.VideoTitle {
 .row {
   padding-top: 55px;
 }
-.rightContainer {
-  width: 790px;
-}
 .mainvideo {
   background: green;
   height: 445px;
@@ -446,6 +442,7 @@ span.likeNumber {
   padding-top: 16px;
   display: flex;
   color: #fff;
+  border-bottom: 1px #363636 solid;
 }
 .picture {
   border-radius: 50%;
@@ -453,6 +450,21 @@ span.likeNumber {
 .description {
   margin: 8px 16px;
   width: 100%;
+  font-size: 13px;
+  position: relative;
+}
+.description::after {
+  content: "顯示更多資訊";
+  position: absolute;
+  padding: 12px 0px;
+  width: 100%;
+  height: 40px;
+  left: 0;
+  color: #aaaaaa;
+  bottom: 0px;
+  background-color: #212121;
+  z-index: 1;
+  cursor: pointer;
 }
 .information {
   display: flex;
