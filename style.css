@@ -2,6 +2,7 @@ body {
   background-color: #202020 !important;
   font-size: 10px;
   font-family: Roboto, Arial, sans-serif;
+  color: #fff;
 }
 
 a {
@@ -378,9 +379,11 @@ h1.VideoTitle {
 .row {
   padding-top: 55px;
 }
+.rightContainer {
+  width: 790px;
+}
 .mainvideo {
   background: green;
-  width: 790px;
   height: 445px;
 }
 .maininfo {
@@ -389,6 +392,7 @@ h1.VideoTitle {
   line-height: 2.4rem;
   color: #fff;
   position: relative;
+  border-bottom: 1px solid #363636;
 }
 span.yt-view-count-renderer {
   color: #aaaaaa;
@@ -404,74 +408,71 @@ span.yt-view-count-renderer {
 i.gary {
   color: #aaaaaa;
 }
+.saveList > svg {
+  width: 23px;
+}
+g {
+  fill: #aaaaaa;
+}
 span.likeNumber {
   color: #aaaaaa;
   font-size: 13px;
   font-weight: bold;
-  padding: 0px 30px 0px 5px;
+  padding: 0px 30px 0px 10px;
   cursor: pointer;
 }
 .sidebar_right {
   padding-top: 24px;
   background: red;
 }
-.sidebar_group {
-  list-style-type:none;
-
-}
-.sidebar_unit {
-  list-style-type:none;
-
-}
-.sidebar_link {
-  text-decoration:none;
-  color:#333;
-}
-.sidebar_link:hover {
-  text-decoration:none;
-  color:#333;
-}
-.sidebar_movie_timeRecord {
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 20px;
   position: relative;
 }
-.sidebar_movie_timeRecord div {
-  color: #EEE;
-  background-color: hsla(0,0%,6.7%,.8);
+.flex::before {
+  content: " ";
   position: absolute;
-  right: -7%;
-  bottom: 130%;
-  font-size:12px;
-    
+  bottom: -9px;
+  left: -10px;
+  width: 155px;
+  background-color: #909090;
+  height: 2px;
 }
-.sidebar_moive_text {
-  /* width: 30%; */
-  width: 210px;
-  height: 40px;
-  overflow: hidden;
+.profile {
+  margin-bottom: 12px;
+  padding-top: 16px;
+  display: flex;
+  color: #fff;
 }
-.sidebar_moive_title {
-  display: block;
-  font-size: 14px;
-  font-weight: 500;
-  /* line-height: 1.6rem; */
-  overflow: hidden;
-  color: #ffffff;
+.picture {
+  border-radius: 50%;
 }
-.sidebar_moive_author {
-  display: block;
-  color:#AAA;
-  /* font-size: 1.3rem; */
-  font-size: 12px;
-  font-weight: 500;
-  /* line-height: 1.6rem; */
-  overflow: hidden
+.description {
+  margin: 8px 16px;
+  width: 100%;
 }
-.sidebar_moive_watch {
-  display: block;
-  color:#AAA;
-  /* line-height: 1.8rem; */
-  /* font-size: 1.3rem; */
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: none;
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+h2.channelName {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0px 0px 2px 0px;
+}
+span.date {
+  color: #aaaaaa;
+  font-size: 0.8rem;
+}
+button.subscript {
+  color: #aaaaaa;
+  padding: 10px 16px;
+  margin: 0px 12px 0px 4px;
+  background-color: #363636;
+  border: 0;
+  font-size: 15px;
+  outline: none;
 }
