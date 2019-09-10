@@ -1,28 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <title>想放的標題</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-
+      <div class="container">
+        <main>
+          <menu>
+            <label for="trigger">
+              <input
+                id="trigger"
+                type="checkbox"
+                name="trigger"
+                class="menu-checkbox"
+              />
+              <div class="menu">
+                <label for="trigger">
+                  <span> </span>
+                </label>
+              </div>
+              <hamburger>
+                <i> </i>
+              </hamburger>
+            </label>
+          </menu>
+        </main>
+      </div>
     </header>
-    <section class="row">
+    <div class="container">
+      <section class="row">
         <div class="main col-sm-12 col-md-8">
-            <div class="mainvideo">
+          <div class="mainvideo"></div>
 
+          <div class="maininfo">
+            <h1 class="VideoTitle">
+              【eng全英】感觉和母语者聊天插不上话？Passive
+              listening可能是原因！| Stop Passive Listening
+            </h1>
+            <div class="situation">
+              <span class="yt-view-count-renderer">觀看次數：2,885次</span>
+              <div>
+                <i class="fa fa-thumbs-up fa-lg gary" aria-hidden="true"></i>
+                <span class="likeNumber">160</span>
+                <i class="fa fa-thumbs-down fa-lg gary" aria-hidden="true"></i>
+                <span class="likeNumber">32</span>
+                <i class="fa fa-share fa-lg gary" aria-hidden="true"></i>
+                <span class="likeNumber">分享</span>
+              </div>
             </div>
-            <h1 class="maininfo">這是影片得標題</h1>
+          </div>
         </div>
+
         <div class="sidebar_right col-md-4">111</div>
-    </section>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+      </section>
+    </div>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
