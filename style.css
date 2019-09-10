@@ -415,3 +415,63 @@ span.likeNumber {
   padding-top: 24px;
   background: red;
 }
+.sidebar_group {
+  list-style-type:none;
+
+}
+.sidebar_unit {
+  list-style-type:none;
+
+}
+.sidebar_link {
+  text-decoration:none;
+  color:#333;
+}
+.sidebar_link:hover {
+  text-decoration:none;
+  color:#333;
+}
+.sidebar_movie_timeRecord {
+  position: relative;
+}
+.sidebar_movie_timeRecord div {
+  color: #EEE;
+  background-color: hsla(0,0%,6.7%,.8);
+  position: absolute;
+  right: -7%;
+  bottom: 130%;
+  font-size:12px;
+    
+}
+.sidebar_moive_text {
+  /* width: 30%; */
+  width: 210px;
+  height: 40px;
+  overflow: hidden;
+}
+.sidebar_moive_title {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  /* line-height: 1.6rem; */
+  overflow: hidden;
+  color: #ffffff;
+}
+.sidebar_moive_author {
+  display: block;
+  color:#AAA;
+  /* font-size: 1.3rem; */
+  font-size: 12px;
+  font-weight: 500;
+  /* line-height: 1.6rem; */
+  overflow: hidden
+}
+.sidebar_moive_watch {
+  display: block;
+  color:#AAA;
+  /* line-height: 1.8rem; */
+  /* font-size: 1.3rem; */
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: none;
+}
