@@ -458,7 +458,7 @@ span.likeNumber {
   position: absolute;
   padding: 12px 0px;
   width: 100%;
-  height: 40px;
+  height: 45px;
   left: 0;
   color: #aaaaaa;
   bottom: 0px;
@@ -487,4 +487,65 @@ button.subscript {
   border: 0;
   font-size: 15px;
   outline: none;
+}
+.comments {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.comments-header {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+}
+h2.commentsNumber {
+  color: #fff;
+  font-size: 1rem;
+  margin-right: 30px;
+}
+span.sortIcon {
+  font-size: 14px;
+}
+span.sortTitle {
+  color: #aaaaaa;
+  font-size: 15px;
+  padding-left: 12px;
+}
+.comments-newMessage {
+  color: #aaaaaa;
+  display: flex;
+  font-size: 0.85rem;
+  align-items: center;
+}
+.newMessage {
+  font-size: 0.85rem;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #363636;
+  width: 100%;
+  margin: 0 0px 0px 20px;
+}
+.message {
+  margin-bottom: 16px;
+  display: flex;
+}
+.message-box {
+  margin-left: 16px;
+}
+.user {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.user > h3 {
+  font-size: 12px;
+  padding-right: 5px;
+  margin: 0;
+}
+.text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.8;
+  padding: 7px 0px;
+}
+.status {
+  font-size: 12px;
 }
